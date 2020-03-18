@@ -1,0 +1,20 @@
+.button {
+  width: 226px;
+  height: 50px;
+  color: #fff;
+  background-color: #ff9c8e;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 64px;
+  cursor: pointer;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s; }
+
+.button:hover {
+  color: #ff9c8e;
+  background-color: #fff; }
+
+/*# sourceMappingURL=button.css.map */
