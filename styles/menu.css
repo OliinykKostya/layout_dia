@@ -102,7 +102,7 @@
 .header__toggler:checked ~ .header__burger {
   display: block; }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
   .header__span, .header__toggler-label {
     display: block; } }
 
