@@ -1,0 +1,15 @@
+.heading {
+  margin-bottom: 64px;
+  padding-top: 128px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 150%;
+  text-align: center; }
+
+@media screen and (max-width: 730px) {
+  .heading {
+    padding-top: 60px;
+    font-size: 35px; } }
+
+/*# sourceMappingURL=heading.css.map */

@@ -2,7 +2,8 @@
   position: relative;
   height: 800px;
   background-color: #008aff;
-  border-radius: 0 0 0 250px; }
+  border-radius: 0 0 0 250px;
+  margin-bottom: 148px; }
   .header__logo {
     position: absolute;
     top: 60px;
@@ -33,7 +34,6 @@
     margin-top: 76px;
     font-size: 13px;
     border-bottom: 1px solid #ff9c8e;
-    border-radius: 4px;
     z-index: 5;
     -webkit-transition: -webkit-transform 0.5s;
     transition: -webkit-transform 0.5s;
@@ -149,7 +149,8 @@
 
 @media screen and (max-width: 730px) {
   .header {
-    border-radius: 0 0 250px 250px; }
+    border-radius: 0 0 250px 250px;
+    margin-bottom: 80px; }
     .header__logo {
       margin: 0 auto;
       left: 45%; }

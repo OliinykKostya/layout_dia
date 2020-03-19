@@ -1,0 +1,62 @@
+.section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section__box {
+    margin: 0 227px;
+    width: 1600px; }
+  .section__goal {
+    background-color: white; }
+
+.analytics__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+@media screen and (max-width: 1400px) {
+  .section__box {
+    margin-right: 200px;
+    margin-left: 200px; } }
+
+@media screen and (max-width: 1300px) {
+  .section__box {
+    margin-right: 150px;
+    margin-left: 150px; } }
+
+@media screen and (max-width: 1220px) {
+  .section__box {
+    margin-right: 120px;
+    margin-left: 120px; } }
+
+@media screen and (max-width: 1150px) {
+  .section__box {
+    margin-right: 50px;
+    margin-left: 50px; } }
+
+@media screen and (max-width: 1005px) {
+  .section__box {
+    margin-right: 30px;
+    margin-left: 30px; } }
+
+@media screen and (max-width: 920px) {
+  .section__box {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: block; } }
+
+@media screen and (max-width: 750px) {
+  .section__box {
+    margin-right: 30px;
+    margin-left: 30px; } }
+
+/*# sourceMappingURL=sections.css.map */

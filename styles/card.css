@@ -1,0 +1,52 @@
+.goal {
+  display: grid;
+  grid-template-columns: repeat(3, 264px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .goal__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .goal__img {
+    margin-bottom: 40px;
+    border-radius: 20px; }
+  .goal__h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 16px; }
+  .goal__p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6c788b;
+    margin-bottom: 123px;
+    text-align: center; }
+
+@media screen and (max-width: 920px) {
+  .goal {
+    grid-template-columns: repeat(2, 264px); } }
+
+@media screen and (max-width: 612px) {
+  .goal {
+    grid-template-columns: repeat(1, 1fr); }
+    .goal__p {
+      margin-bottom: 50px; }
+    .goal__img {
+      margin-bottom: 15px; }
+    .goal__h2 {
+      margin-bottom: 6px; } }
+
+/*# sourceMappingURL=card.css.map */
