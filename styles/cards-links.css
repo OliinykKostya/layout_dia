@@ -75,7 +75,15 @@
   height: 40px;
   margin-right: 16px;
   background-color: #56ccf2;
-  border-radius: 50%; }
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
+
+.card__arrow:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2); }
 
 .card__img:nth-child(2) > .card__link > .card__arrow {
   background-color: #fcc91d; }
