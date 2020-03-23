@@ -581,7 +581,16 @@ a {
             justify-content: center; }
   .goal__img {
     margin-bottom: 40px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s; }
+  .goal__img:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2); }
   .goal__h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
