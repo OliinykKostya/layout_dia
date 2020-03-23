@@ -167,7 +167,7 @@ a {
   .header__info {
     margin-top: 76px;
     font-size: 13px;
-    z-index: 5;
+    z-index: 1;
     border-bottom: solid 1px #ff9c8e; }
   .header__link {
     font-weight: bold;
@@ -310,9 +310,7 @@ a {
           -ms-flex-align: center;
               align-items: center; }
     .header__info {
-      position: absolute;
-      top: 0;
-      left: 24px; } }
+      display: none; } }
 
 .nav {
   margin-top: 76px;
@@ -433,15 +431,15 @@ a {
 .header__span {
   position: absolute;
   background-color: #fff;
-  right: 24px;
+  right: 4px;
   width: 40px;
   height: 4px; }
   .header__span-top {
-    top: 75px; }
+    top: 30px; }
   .header__span-middle {
-    top: 85px; }
+    top: 20px; }
   .header__span-bottom {
-    top: 95px; }
+    top: 10px; }
 
 .header__link-menu {
   display: block;
@@ -454,6 +452,10 @@ a {
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
+.header__link-menu:last-of-type {
+  display: inline-block;
+  border-bottom: 1px solid #ff9c8e; }
+
 .header__link-menu:hover {
   color: #ff9c8e; }
 
@@ -462,19 +464,22 @@ a {
   margin-bottom: 46px; }
 
 .header__toggler-label {
+  position: absolute;
   display: block;
   font-size: 55px;
-  width: 20px;
-  height: 20px;
+  width: 45px;
+  height: 45px;
+  top: 65px;
+  right: 24px;
   z-index: 3; }
 
 .header__toggler:checked ~ .header__toggler-label .header__span-top {
-  top: 85px;
+  top: 20px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg); }
 
 .header__toggler:checked ~ .header__toggler-label .header__span-middle {
-  top: 85px;
+  top: 20px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg); }
 
@@ -808,7 +813,7 @@ a {
   display: block;
   width: 687px;
   height: 680px;
-  background-image: url(/images/what-we-do/what-we-do-1.jpg);
+  background-image: url(../images/what-we-do/what-we-do-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 296px;

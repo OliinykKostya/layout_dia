@@ -33,7 +33,7 @@
   .header__info {
     margin-top: 76px;
     font-size: 13px;
-    z-index: 5;
+    z-index: 1;
     border-bottom: solid 1px #ff9c8e; }
   .header__link {
     font-weight: bold;
@@ -176,8 +176,6 @@
           -ms-flex-align: center;
               align-items: center; }
     .header__info {
-      position: absolute;
-      top: 0;
-      left: 24px; } }
+      display: none; } }
 
 /*# sourceMappingURL=header.css.map */
