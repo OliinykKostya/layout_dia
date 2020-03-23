@@ -591,6 +591,11 @@ a {
   .goal__img:hover {
     -webkit-transform: scale(1.2, 1.2);
             transform: scale(1.2, 1.2); }
+  .goal__img__box {
+    height: 166px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px; }
   .goal__h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
