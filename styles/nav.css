@@ -33,8 +33,12 @@
   .nav__link {
     padding: 4px 10px; } }
 
-@media screen and (max-width: 730px) {
-  .nav {
+@media screen and (max-width: 750px) {
+  .header__nav {
     display: none; } }
+
+@media screen and (max-width: 750px) {
+  .nav__link {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,26 @@
+.testimonials__heading {
+  margin-bottom: 85px; }
+
+.testimonials__h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6c788b; }
+
+.testimonials__h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #253757; }
+
+@media screen and (max-width: 920px) {
+  .testimonials__heading {
+    text-align: center;
+    margin-bottom: 50px; } }
+
+/*# sourceMappingURL=testimonials.css.map */

@@ -1,5 +1,4 @@
 .section {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,9 +10,23 @@
           align-items: center; }
   .section__box {
     margin: 0 227px;
-    width: 1600px; }
+    width: 100%; }
   .section__goal {
     background-color: white; }
+  .section__work {
+    background-color: #ff9c8e;
+    margin-left: 119px;
+    border-radius: 250px 0 0 250px;
+    margin-bottom: 149px; }
+  .section__slogan {
+    position: relative;
+    height: 691px;
+    background-color: #fff;
+    overflow: hidden; }
+  .section__footer {
+    background-color: #008aff;
+    border-radius: 0 250px 0 0;
+    z-index: 5; }
 
 .analytics__box {
   display: -webkit-box;
@@ -21,7 +34,12 @@
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 44px; }
+
+@media screen and (min-width: 1950px) {
+  .section__box {
+    width: 1600px; } }
 
 @media screen and (max-width: 1400px) {
   .section__box {
@@ -33,10 +51,20 @@
     margin-right: 150px;
     margin-left: 150px; } }
 
+@media screen and (max-width: 1360px) {
+  .section__box {
+    margin-right: 140px;
+    margin-left: 140px; } }
+
 @media screen and (max-width: 1220px) {
   .section__box {
     margin-right: 120px;
     margin-left: 120px; } }
+
+@media screen and (max-width: 1200px) {
+  .section__box {
+    margin-right: 100px;
+    margin-left: 100px; } }
 
 @media screen and (max-width: 1150px) {
   .section__box {
@@ -54,9 +82,24 @@
     margin-left: 100px;
     display: block; } }
 
+@media screen and (max-width: 920px) {
+  .section__work {
+    margin-left: 80px;
+    margin-bottom: 50px; }
+  .section__slogan {
+    height: 500px; } }
+
 @media screen and (max-width: 750px) {
   .section__box {
     margin-right: 30px;
     margin-left: 30px; } }
+
+@media screen and (max-width: 550px) {
+  .section__work {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 200px; }
+  .section__footer {
+    border-radius: 250px 250px 0 0; } }
 
 /*# sourceMappingURL=sections.css.map */

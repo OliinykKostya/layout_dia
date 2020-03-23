@@ -1,0 +1,59 @@
+.slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .slogan__h1 {
+    margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: #253757; }
+  .slogan__p {
+    margin-bottom: 64px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #6c788b; }
+  .slogan__button {
+    margin-bottom: 216px;
+    height: 56px;
+    width: 225px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+    border-radius: 64px;
+    background-color: #ff9c8e;
+    color: #fff;
+    border: none;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s; }
+  .slogan__button:hover {
+    background-color: #fff;
+    color: #ff9c8e;
+    border: 1px solid #ff9c8e; }
+
+@media screen and (max-width: 920px) {
+  .slogan {
+    padding-bottom: 0;
+    margin-top: 240px; }
+    .slogan__h1 {
+      font-size: 32px;
+      line-height: 48px; }
+    .slogan__p {
+      font-size: 20px; } }
+
+/*# sourceMappingURL=slogan.css.map */

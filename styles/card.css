@@ -37,7 +37,20 @@
 
 @media screen and (max-width: 920px) {
   .goal {
-    grid-template-columns: repeat(2, 264px); } }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .goal__card {
+      width: 264px;
+      padding: 15px; } }
 
 @media screen and (max-width: 612px) {
   .goal {
