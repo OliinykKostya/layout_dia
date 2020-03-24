@@ -493,6 +493,26 @@ a {
   .header__span, .header__toggler-label {
     display: block; } }
 
+.header__anim {
+  -webkit-animation: show-menu 1s;
+          animation: show-menu 1s; }
+
+@-webkit-keyframes show-menu {
+  from {
+    -webkit-transform: translate(0, -650px);
+            transform: translate(0, -650px); }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
+
+@keyframes show-menu {
+  from {
+    -webkit-transform: translate(0, -650px);
+            transform: translate(0, -650px); }
+  to {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
+
 .info {
   margin: 0 423px 148px; }
   .info__h2 {
